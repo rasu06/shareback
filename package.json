@@ -10,7 +10,6 @@
     "dev": "nodemon ./setup && server",
     "serve": "node ./setup && server"
   },
-
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
