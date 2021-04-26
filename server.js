@@ -8,6 +8,10 @@ const cors = require('cors');
 const corsOptions={
   origin: process.env.ALLOWED_CLIENTS.split(',')
 }
+
+
+
+
 app.use(cors(corsOptions));
 app.use(express.static('public'));
 
